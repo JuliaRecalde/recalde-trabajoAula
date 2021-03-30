@@ -16,5 +16,11 @@ namespace pruebaGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //label1.Text = "Cambiamos el text";
+            MessageBox.Show("HOLA MUNDO");
+        }
     }
 }
